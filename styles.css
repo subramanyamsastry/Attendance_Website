@@ -1,0 +1,727 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.container {
+    background-color: #050A30;
+    background-size: cover;
+}
+
+.container-login {
+    background-color: #050A30;
+    background-size: cover;
+    height: 100vh;
+}
+
+.cbit-h {
+    font-size: 40px font-family: "Roboto";
+    color: #050A30;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.login-card {
+    background-color: white;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+}
+
+.att-p {
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 30px;
+    color: #050A30;
+}
+
+.input-1,
+.input-2 {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 8px 12px;
+    border: 1px solid #dbdbdb;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.overlap-text {
+    position: relative;
+}
+
+.overlap-text a {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    color: #003569;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: 'Overpass Mono', monospace;
+    letter-spacing: -1px;
+}
+
+.btn {
+    width: 100%;
+    background-color: #3897f0;
+    border: 1px solid #3897f0;
+    padding: 5px 12px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.sub-content {
+
+    margin: 10px auto;
+    border: 0px solid #e6e6e6;
+    padding: 10px 20px;
+}
+
+.s-part {
+    text-align: center;
+    font-family: 'Overpass Mono', monospace;
+    word-spacing: -3px;
+    letter-spacing: -2px;
+    font-weight: normal;
+}
+
+.s-part a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #3897f0;
+    font-family: 'Overpass Mono', monospace;
+    word-spacing: -3px;
+    letter-spacing: -2px;
+    font-weight: normal;
+}
+
+input:focus {
+    background-color: yellow;
+}
+
+.course-container {
+    background-color: #050A30;
+    background-size: cover;
+    height: 90vh;
+}
+
+.cbit-h {
+    font-size: 40px;
+    font-family: "Roboto";
+    color: #050A30;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.course-h {
+    font-size: 30px;
+    font-family: "Roboto";
+    color: white;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.course-d {
+    background-color: ;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.ci-1 {
+    margin: 20px;
+    margin-left: 20px;
+    border-radius: 30px;
+}
+
+.ci-2 {
+    margin: 20px;
+    margin-left: 5px;
+    border-radius: 30px;
+}
+
+.ci-3 {
+    margin: 20px;
+    margin-left: 20px;
+    border-radius: 30px;
+}
+
+.back-btn {
+    color: white;
+    margin: 30px;
+}
+
+.year-d {
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.year-style {
+    color: #050A30;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.card-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 90px;
+    width: 125px;
+    margin: 15px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.card-image {
+    height: 35px;
+    margin: 10px;
+    font-size: 40px;
+}
+
+.card-text {
+    font-family: "Roboto";
+    color: #1f2933;
+    font-size: 14px;
+}
+
+.container-rnos {
+    background-color: #050A30;
+    background-size: cover;
+}
+
+.std-info-card {
+    background-color: white;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.std-info-txt {
+    color: #000000;
+    font-family: "Roboto";
+    font-size: 14px;
+    margin: 5px;
+}
+
+.std-info-head {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+}
+
+span {
+    color: #000000;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.std-rno-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.user-icon {
+    font-size: 35px;
+}
+
+.rno {
+    color: #000000;
+    font-family: "Roboto";
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+#attendance {
+    width: 20px;
+}
+
+.back-btn {
+    color: white;
+    margin: 30px;
+}
+
+.take-att-btn {
+    background-color: #F9C400;
+    color: #000000;
+    font-family: "Roboto";
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.cbit-h {
+    font-size: 40px font-family: "Roboto";
+    color: #050A30;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.std-info-card {
+    background-color: white;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.std-info-txt {
+    color: #000000;
+    font-family: "Roboto";
+    font-size: 16px;
+    margin: 5px;
+}
+
+.std-info-head {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+}
+
+span {
+    color: #000000;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.std-rno-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.user-icon {
+    font-size: 35px;
+}
+
+.rno {
+    color: #000000;
+    font-family: "Roboto";
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+#attendance {
+    width: 20px;
+}
+
+.back-btn {
+    color: white;
+    margin: 30px;
+}
+
+.take-att-btn {
+    background-color: #F9C400;
+    color: #000000;
+    font-family: "Roboto";
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.LE-stds {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+    margin-top: 50px;
+}
+
+.container {
+    background-color: #050A30;
+    background-size: cover;
+}
+
+.img {
+    height: 75px;
+}
+
+.c-img {
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 250px;
+}
+
+.about-us-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.about-us-head {
+    font-family: "Roboto";
+    font-size: 22px;
+    color: #CD3333;
+    padding: 10px;
+}
+
+.hl {
+    background-color: red;
+    margin-top: 5px;
+}
+
+.cbit-para {
+    font-family: "Roboto";
+    font-size: 16px;
+    padding: 15px;
+    padding-top: 5px;
+}
+
+.bg-container {
+    background-color: #19232d;
+}
+
+.logo {
+    height: 75px;
+}
+
+.handle {
+    background-color: #202b36;
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.handle-logo {
+    color: #5a7184;
+    font-size: 20px;
+    padding-top: 14px;
+}
+
+.address {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+.contact {
+    color: #5a7184;
+    font-weight: 800;
+    font-family: "Roboto";
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.address1 {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+    padding-top: 10px;
+    font-weight: 500;
+    margin-top: -20px;
+}
+
+.margin-adjustment {
+    margin-top: -10px;
+}
+
+.hr-line {
+    background-color: #5a7184;
+}
+
+.btn-img {
+    border-width: 0px;
+}
+
+.model-img1 {
+    height: 150px;
+    border-radius: 10px;
+    padding-right: 20px;
+}
+
+.model-img2 {
+    height: 150px;
+    border-radius: 20px;
+    padding-right: 20px;
+}
+
+.model-img3 {
+    height: 150px;
+    border-radius: 40px;
+    margin: 10px;
+}
+
+.model-img4 {
+    height: 150px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+
+
+.model-para {
+    font-family: "Roboto";
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.total-att-bg {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.total-att-text {
+    color: black;
+    font-family: "Roboto";
+    font-weight: 600;
+    padding: 15px;
+    padding-bottom: 10px;
+}
+
+.course-container {
+    background-color: #050A30;
+    background-size: cover;
+    height: 90vh;
+}
+
+.total-att-head {
+    color: white;
+    font-family: "Roboto";
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+}
+
+.total-att-card {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.total-att-cousename {
+    font-family: "Roboto";
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.flex-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.single-chart {
+    width: 33%;
+    padding: 30px;
+    justify-content: space-around;
+    position: relative;
+}
+
+.circular-chart {
+    display: block;
+    margin: 0;
+    width: 199px;
+    height: 199px;
+}
+
+.circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 3.8;
+}
+
+.circle {
+    fill: none;
+    stroke-width: 2.8;
+    /* stroke-linecap: round; */
+    stroke-linecap: square;
+    animation: progress 1s ease-out forwards;
+}
+
+@keyframes progress {
+    0% {
+        stroke-dasharray: 0 100;
+    }
+}
+
+.circular-chart.orange .circle {
+    stroke: rgba(130, 255, 130, 0.85);
+}
+
+.circular-chart.green .circle {
+    stroke: rgba(251, 255, 0, 0.952);
+}
+
+.circular-chart.blue .circle {
+    stroke: rgba(226, 94, 17, 0.85);
+}
+
+.circular-chart.red .circle {
+    stroke: rgba(255, 0, 0, 1);
+}
+
+.percentage {
+    fill: #666;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    text-anchor: middle;
+}
+
+.myRightCtn {
+    position: relative;
+    background-image: linear-gradient(45deg, #050A30, #9b00e8);
+    border-radius: 25px;
+    height: 100%;
+    padding: 25px;
+    color: rgb(192, 192, 192);
+    font-size: 12px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.myLeftCtn {
+    position: relative;
+    background: #fff;
+    border-radius: 25px;
+    height: 100%;
+    padding: 25px;
+    padding-left: 50px;
+}
+
+.myLeftCtn header {
+    color: blueviolet;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.row {
+    height: 100%;
+
+}
+
+.myCard {
+    position: relative;
+    background: #fff;
+    height: 100%;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+
+
+}
+
+
+.myRightCtn header {
+    color: #fff;
+    font-size: 44px;
+}
+
+.box {
+    position: relative;
+    margin: 20px;
+    margin-bottom: 100px;
+
+}
+
+.myLeftCtn .myInput {
+    width: 230px;
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 50px;
+    border: none;
+    -webkit-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+}
+
+.myLeftCtn .myInput:focus {
+    outline: none;
+}
+
+.myForm {
+    position: relative;
+    margin-top: 50px;
+
+}
+
+
+.myLeftCtn .butt {
+    background: linear-gradient(45deg, #bb36fd, #9b00e8);
+    color: #fff;
+    width: 230px;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    -webkit-box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+}
+
+.myLeftCtn .butt:hover {
+    background: linear-gradient(45deg, #050A30, #b726ff);
+
+}
+
+.myLeftCtn .butt:focus {
+    outline: none;
+}
+
+
+.myLeftCtn .fas {
+    position: relative;
+    color: #bb36fd;
+    left: 36px;
+}
+
+.butt_out {
+    background: transparent;
+    color: #fff;
+    width: 120px;
+    border: 2px solid#fff;
+    border-radius: 25px;
+    padding: 10px;
+    -webkit-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+}
+
+.butt_out:hover {
+    border: 2px solid#eecbff;
+}
+
+
+.butt_out:focus {
+    outline: none;
+}
+
+.absent-list-head {
+    color: white;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 30px;
+    padding: 20px;
+}
